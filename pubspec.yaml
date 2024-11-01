@@ -1,0 +1,78 @@
+name: samsat_gpt
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  animated_toggle_switch: ^0.8.3
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  connectivity_plus: ^5.0.2
+  dio: ^5.0.3
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.2.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  go_router: ^13.1.0
+  google_fonts: ^4.0.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  logger: ^2.4.0
+  lottie: ^2.3.0
+  path_provider: ^2.1.3
+  provider: ^6.1.2
+  responsive_builder: ^0.7.0
+  flutter_slider_drawer: ^2.1.3
+
+dev_dependencies:
+  analyzer: ^6.4.1
+  build_runner: ^2.4.9
+  freezed: ^2.1.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - .env
+    - assets/files/
+    - assets/fonts/
+    - assets/icons/chevron/
+    - assets/icons/data_diri/
+    - assets/icons/detail_kendaraan/
+    - assets/icons/fiskal/
+    - assets/icons/info_progresif/
+    - assets/icons/input/
+    - assets/icons/layanan/
+    - assets/icons/message/
+    - assets/icons/misc/
+    - assets/icons/otp/
+    - assets/icons/part_pop_up/
+    - assets/icons/payment/
+    - assets/icons/payment_status/
+    - assets/icons/pilih_dokumen/
+    - assets/icons/state/
+    - assets/icons/toogle/
+    - assets/icons/metode_pembayaran/
+    - assets/icons/dokumen/
+    - assets/icons/fitur/
+    - assets/images/
+    - assets/images/dokumen/
+    - assets/images/logo/
+    - assets/images/nik_false/
+    - assets/images/kata_sandi/
+    - assets/images/vehicle/
